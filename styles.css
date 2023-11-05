@@ -16,11 +16,12 @@ body{
 	justify-content:space-between;
 	color:white;
 }
-.photo-album>ul>li{
+.photo-album>ul>li,.variant>ul>li{
 	list-style-type:none;
 	border:1px solid black;
+	pading:1px;
 }
-.photo-album>ul{
+.photo-album>ul,.variant>ul{
 	display:flex;
 	flex-direction:row;
 	gap:10px;
