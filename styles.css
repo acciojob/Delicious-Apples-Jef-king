@@ -1,1 +1,9 @@
 /* your code here */
+body{
+	background-color:lightgreen;
+}
+.product{
+	display:flex;
+	justify-content:center;
+	align-items:center;
+}
