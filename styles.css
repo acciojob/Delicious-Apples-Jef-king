@@ -6,4 +6,19 @@ body{
 	display:flex;
 	justify-content:center;
 	align-items:center;
+	background-color:white;
+	width:500px;
+	margin-left:200px;
+}
+.photo-container{
+	background-color:palegreen;
+	position:relative;
+	left:-50px;
+}
+.photo-main>img{
+	position:relative;
+	left:-50px;
+}
+.photo-album{
+	background-color:white;
 }
