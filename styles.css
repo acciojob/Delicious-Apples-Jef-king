@@ -7,8 +7,8 @@ body{
 	justify-content:center;
 	align-items:center;
 	background-color:white;
-	width:600px;
-	margin-left:200px;
+	width:700px;
+	margin:100px;
 }
 .controls{
 	display:flex;
@@ -39,4 +39,11 @@ body{
 }
 .photo-album{
 	background-color:white;
+}
+.price{
+	font-size:48px;
+	color:red;
+}
+.product__info{
+	padding:30px;
 }
