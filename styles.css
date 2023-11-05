@@ -1,19 +1,36 @@
 /* your code here */
 body{
-	background-color:lightgreen;
+	background-color:lightgreen !important;
 }
 .product{
 	display:flex;
 	justify-content:center;
 	align-items:center;
 	background-color:white;
-	width:500px;
+	width:600px;
 	margin-left:200px;
+}
+.controls{
+	display:flex;
+	padding:10px;
+	justify-content:space-between;
+	color:white;
+}
+.photo-album>ul>li{
+	list-style-type:none;
+	border:1px solid black;
+}
+.photo-album>ul{
+	display:flex;
+	flex-direction:row;
+	gap:10px;
+	padding:10px;
 }
 .photo-container{
 	background-color:palegreen;
 	position:relative;
 	left:-50px;
+	top:10px;
 }
 .photo-main>img{
 	position:relative;
